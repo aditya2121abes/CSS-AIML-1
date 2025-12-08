@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+}
+@media(min-width:600px){
+    .box{
+        background-color: brown;
+    }
+}
+@media(min-width:768px){
+    .box{
+        background-color: blue;
+    }
+}
+@media(min-width:900px){
+    .box{
+        background-color: pink;
+    }
+}
+@media(min-width:1024px){
+    .box{
+        background-color: red;
+    }
+}
