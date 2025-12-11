@@ -1,24 +1,24 @@
-.student-table{
-    border: 60%;
+.student-table {
+    width: 60%;
     margin: auto;
     background-color: aqua;
     border-collapse: collapse;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
 }
-.student-table th{
-    border: 1px;
 
-}
-.student-table th{
+
+.student-table th {
     background-color: pink;
     color: aquamarine;
-    padding: 3%;
+    padding: 8px;
     border: 1px solid blanchedalmond;
 }
 
-.student-table td{
+.student-table td {
     background-color: blueviolet;
     color: white;
-    padding: 3%;
+    padding: 8px;
     border: 1px solid greenyellow;
+    text-align: center;
 }

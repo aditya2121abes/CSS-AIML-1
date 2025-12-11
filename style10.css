@@ -1,0 +1,47 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* हल्का blue background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Table styling */
+table {
+    width: 60%; /* Table width */
+    margin: 40px auto; /* Center the table */
+    border-collapse: collapse; /* Borders merge */
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.2); /* Shadow effect */
+}
+
+/* Header cells */
+th {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    padding: 12px;
+    border: 2px solid #333;
+}
+
+/* Data cells */
+td {
+    padding: 12px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Optional: Table caption styling */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
